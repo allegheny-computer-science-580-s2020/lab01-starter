@@ -1,7 +1,7 @@
 # cs580s2020 lab01-starter
 
 Designed for use with [GitHub Classroom](https://classroom.github.com/), this
-repository contains starter files for lab 01 in CMPSC 580 Spring 2020. 
+repository contains starter files for lab 01 in CMPSC 580 Spring 2020.
 Since the Travis builds for this repository will initially fail
 (as evidenced by a red &#x2717; appearing in the commit logs instead of a green
 &#x2714;), the programmer is responsible for completing all of the steps needed
@@ -55,11 +55,18 @@ window when you are in the root of your GitHub repository.
 
 In order for Travis to automatically upload a PDF of your proposal template
  to GitHub when you tag the commit, you need to
-created your encrypted access token. To complete this task you must type the
-command `travis setup releases --com --force` in your GitHub repository for this
-assignment. Then, when prompted, please type your username and password for
-GitHub. When asked to give the filename, you can type
-`_build/senior_thesis_proposal.pdf`. When asked if you want to deploy from a
+created your encrypted access token. To complete this task,
+in your GitHub repository for this assignment, you must type the
+command:
+
+`travis setup releases --com --force`
+
+Then, when prompted, please type your username and password for
+GitHub. When asked to give the filename, you can type:
+
+`_build/senior_thesis_proposal.pdf`.
+
+When asked if you want to deploy from a
 specific repository, you can respond with the answer of "no". Finally, when
 this tool asks if you want to use encryption, please answer with a "yes".
 
