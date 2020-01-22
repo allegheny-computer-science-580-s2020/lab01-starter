@@ -14,7 +14,7 @@ The source code for all of the LaTeX source code files must adhere to all of the
 [Overleaf LaTeX Style Guide](https://www.overleaf.com/learn/latex/Style_Guide).
 The source code in the submitted LaTeX source code files must also pass
 additional tests set by the [GatorGrader
-tool](https://github.com/gatored/gatorgrader).
+tool](https://github.com/GatorEducator/gatorgrader).
 
 When you use the `git commit` command to transfer your source code to your
 GitHub repository, [Travis CI](https://travis-ci.com/) will initialize a build
